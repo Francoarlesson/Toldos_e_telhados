@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toldos e Telhados Ermelinda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Serviços profissionais de fabricação, instalação e manutenção de toldos e telhados. Solicite seu orçamento gratuito!">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="/imagens/Logo-Marca-removebg-preview.png" alt="Logo Nome da Sua Empresa">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="#contato" class="btn-orcamento">Orçamento Grátis</a>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Proteção e Estilo com Toldos e Telhados de Qualidade</h1>
+            <p>Fabricação, instalação e manutenção para residências e comércios.</p>
+            <a href="#contato" class="btn-principal">Solicitar Orçamento</a>
+        </div>
+        </section>
+
+    <section id="servicos" class="fade-in">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos-grid">
+            
+            <div class="servico-item">
+                <img src="/imagens/Toldo-Policarbonato.jpg" alt="Ícone Toldos">
+                <h3>Toldos</h3>
+                <p>Instalação de toldos retráteis, policarbonato, lonas.</p>
+            </div>
+
+            <div class="servico-item">
+                <img src="/imagens/Telhado de Zinco.jpg" alt="Ícone Telhados">
+                <h3>Telhados de Zinco</h3>
+                <p>Construção, reforma e manutenção de telhados residenciais e comerciais.</p>
+            </div>
+
+            <div class="servico-item">
+                <img src="icone-cobertura.png" alt="Ícone Coberturas">
+                <h3>Coberturas</h3>
+                <p>Coberturas em policarbonato e vidro para áreas externas.</p>
+            </div>
+            
+            <div class="servico-item">
+                <img src="icone-manutencao.png" alt="Ícone Manutenção">
+                <h3>Manutenção</h3>
+                <p>Serviços de reparo, limpeza e troca de lonas.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="portfolio" class="fade-in">
+        <h2>Nossos Projetos</h2>
+        <p>Veja alguns dos nossos trabalhos realizados.</p>
+        <div class="galeria">
+            <img src="/imagens/Projetos1.jpeg" alt="Instalação de Toldo Retrátil">
+            <img src="/imagens/Projetos2.jpeg" alt="Cobertura em Policarbonato">
+            <img src="/imagens/p.jpeg" alt="Reforma de Telhado">
+            </div>
+    </section>
+
+    <section id="depoimentos" class="fade-in">
+        <h2>O que Nossos Clientes Dizem</h2>
+        <p>Confira os depoimentos de clientes satisfeitos com nossos serviços.</p>
+        <div class="depoimentos-grid">
+            <div class="depoimento-item">
+                <p>"Excelente trabalho! O toldo ficou perfeito e a instalação foi rápida e profissional."</p>
+                <cite>- Maria Silva, Residência</cite>
+            </div>
+            <div class="depoimento-item">
+                <p>"Contratei para o telhado do meu comércio. Qualidade impecável e preço justo."</p>
+                <cite>- João Santos, Comércio</cite>
+            </div>
+            <div class="depoimento-item">
+                <p>"Cobertura de policarbonato superou minhas expectativas. Recomendo fortemente!"</p>
+                <cite>- Ana Costa, Residência</cite>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="fade-in">
+        <h2>Sobre a Toldos e Telhados Ermelinda</h2>
+        <p>A Toldos e Telhados Ermelinda atua no mercado de toldos e telhados, oferecendo soluções personalizadas com materiais de alta qualidade e mão de obra especializada. Nosso compromisso é com a satisfação do cliente, garantindo segurança, durabilidade e estética para o seu imóvel.</p>
+    </section>
+
+    <section id="contato" class="fade-in">
+        <h2>Solicite seu Orçamento Gratuito</h2>
+        
+        <div class="contato-container">
+            <form action="seu-script-de-email.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone/WhatsApp:</label>
+                <input type="tel" id="telefone" name="telefone">
+
+                <label for="servico">Serviço de Interesse:</label>
+                <select id="servico" name="servico">
+                    <option value="toldos">Toldos</option>
+                    <option value="telhados">Telhados</option>
+                    <option value="coberturas">Coberturas</option>
+                    <option value="manutencao">Manutenção/Reparo</option>
+                </select>
+
+                <label for="mensagem">Mensagem (opcional):</label>
+                <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+                <button type="submit">Enviar Solicitação</button>
+            </form>
+
+            <div class="info-contato">
+                <h3>Nossos Contatos</h3>
+                <p><strong>WhatsApp:</strong> (31) 98865-1258 </p>
+                <p><strong>E-mail:</strong> toldosermelinda@gmail.com</p>
+                <p><strong>Endereço:</strong> Rua Açores, 161 - Belo Horizonte/MG</p>
+                </div>
+        </div>
+    </section>
+
+    <section id="cta" class="fade-in">
+        <h2>Pronto para Transformar Seu Espaço?</h2>
+        <p>Entre em contato conosco hoje mesmo e receba uma consultoria gratuita!</p>
+        <a href="#contato" class="btn-principal">Fale Conosco Agora</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Toldos e Telhados Ermelinda. Todos os direitos reservados.</p>
+        <div class="social-links">
+            <a href="https://wa.me/553198651258">WhatsApp</a>
+            <a href="seu-facebook">Facebook</a>
+            <a href="seu-instagram">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
