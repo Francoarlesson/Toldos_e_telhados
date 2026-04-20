@@ -246,6 +246,19 @@ section p {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     }
 
+.galeria {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
     .servico-item,
     .depoimento-item,
     .contato-card,
